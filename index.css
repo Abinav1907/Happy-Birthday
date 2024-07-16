@@ -1,0 +1,76 @@
+body{
+  background-image: url(images/default.jpg);
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  margin: 0;
+  height: 100vh;
+  padding: 0;
+}
+.b1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: inherit;
+  padding:  9px 10px 10px 10px;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  border-color: black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Roboto;
+  transition: opacity 0.3s background-color 0.3s;
+}
+.b1:hover {
+  opacity: 0.35; /* Reduce opacity on hover */
+}
+.b1:active{
+  background-color: transparent;
+}
+.p1, .p2, .i1, .i2 {
+  opacity: 0;
+  
+}
+.p1{
+  display: none;
+  position: fixed;
+  top: 20px; /* Adjust bottom distance as needed */
+  left: 20px; /* Adjust left distance as needed */
+  max-width: 200px; /* Adjust maximum width as needed */
+  height: auto; /* Automatically adjust height */
+  border-radius: 6px; /* Optional: Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.p2{
+  display: none;
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  max-width: 200px;
+  height: auto; 
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  
+}
+.i1{
+  display: none;
+  position: fixed;
+  bottom: 20px; 
+  left: 20px; 
+  max-width: 200px;
+  height: auto; 
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+.i2{
+  display: none;
+  position: fixed;
+  top: 20px; /* Adjust bottom distance as needed */
+  right: 20px; /* Adjust left distance as needed */
+  max-width: 200px; /* Adjust maximum width as needed */
+  height: auto; /* Automatically adjust height */
+  border-radius: 6px; /* Optional: Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
